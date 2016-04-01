@@ -1,0 +1,26 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "VK",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "Black Wing Foundation",
+	"CreatedByURL" : "bwf-game.com",
+	"EngineVersion" : "4.10.1",
+	"Description" : "VK",
+	"Category" : "WEB",
+	
+	"Modules" :
+	[
+    {
+      "Name": "VK",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name" : "VKEditor",
+      "Type" : "Developer",
+      "LoadingPhase" : "PreDefault"
+    }
+	]
+}
